@@ -1,0 +1,64 @@
+{
+  "name": "moneyify",
+  "version": "1.0.0",
+  "description": "Lightweight currency conversion library — cashify-compatible API with optional auto-fetch from the AllRatesToday API. 160+ currencies, mid-market rates, zero runtime deps.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "moneyify",
+    "cashify",
+    "currency",
+    "currency-converter",
+    "currency-conversion",
+    "money",
+    "money.js",
+    "convert",
+    "conversion",
+    "exchange",
+    "exchange-rate",
+    "fx",
+    "forex",
+    "mid-market",
+    "refinitiv",
+    "reuters",
+    "big.js",
+    "allratestoday",
+    "typescript"
+  ],
+  "author": "AllRatesToday <support@allratestoday.com> (https://allratestoday.com)",
+  "license": "MIT",
+  "homepage": "https://allratestoday.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cahthuranag/moneyify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cahthuranag/moneyify/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  }
+}
