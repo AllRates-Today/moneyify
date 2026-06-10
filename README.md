@@ -1,5 +1,7 @@
 # 💱 moneyify
 
+[![Powered by AllRatesToday](https://img.shields.io/badge/Powered%20by-AllRatesToday-orange.svg)](https://allratestoday.com)
+
 [![npm version](https://img.shields.io/npm/v/moneyify)](https://www.npmjs.com/package/moneyify)
 [![npm downloads](https://img.shields.io/npm/dm/moneyify)](https://www.npmjs.com/package/moneyify)
 [![license](https://img.shields.io/npm/l/moneyify)](./LICENSE)
