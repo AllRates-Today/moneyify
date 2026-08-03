@@ -9,7 +9,7 @@
 Lightweight currency conversion library. **Cashify-compatible API** — bring your own rates and convert synchronously — plus **one extra superpower**: `Moneyify.live()` auto-fetches mid-market rates from the [AllRatesToday API](https://allratestoday.com) so you never need to maintain a rate table yourself.
 
 - 💡 Drop-in replacement for `cashify` (sync `convert`, expression parsing, big.js support)
-- 🌍 Auto-fetch 160+ currencies from Refinitiv (Reuters) + interbank feeds
+- 🌍 Auto-fetch 160+ currencies from institutional interbank market data + interbank feeds
 - 📦 **Zero runtime dependencies**
 - 🧮 Optional `big.js` integration for arbitrary-precision math
 - 💬 Parses expressions: `"10 USD to EUR"`, `"€10 EUR in GBP"`, `"1,250.5 usd in gbp"`
