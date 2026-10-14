@@ -1,6 +1,6 @@
 {
   "name": "moneyify",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lightweight currency conversion library — cashify-compatible API with optional auto-fetch from the AllRatesToday API. 160+ currencies, mid-market rates, zero runtime deps.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -41,7 +41,12 @@
     "allratestoday",
     "typescript",
     "exchangerate",
-    "exchange rate"
+    "exchange rate",
+    "currency-api",
+    "currency-exchange-rates",
+    "forex-api",
+    "currency-exchange",
+    "currency-rates"
   ],
   "author": "AllRatesToday <support@allratestoday.com> (https://allratestoday.com)",
   "license": "MIT",
